@@ -68,6 +68,7 @@
   align-items: center;
   height: calc(100% - 3.65rem);
   cursor: pointer;
+  text-align: center;
 
   .sidenav-nav-item{
     width: 100%;
@@ -89,6 +90,7 @@
         min-width: 2rem;
         margin: 0 0.5rem;
         text-align: center;
+        align-items: center;
       }
       .sidenav-link-text{
         margin-left: 1.5rem;
@@ -101,5 +103,14 @@
       background-color: #fff;
       color: #000;
     }
+  }
+}
+
+.active{
+  background-color: #fff;
+
+  .sidenav-link-icon,
+  .sidenav-link-text{
+    color: #000;
   }
 }
